@@ -10,6 +10,7 @@ app.layout = html.Div([
             dbc.NavItem(dbc.NavLink("Home", href="/")),
             dbc.NavItem(dbc.NavLink("Dashboard", href="/dashboard")),
             dbc.NavItem(dbc.NavLink("Analytics", href="/analytics")),
+            dbc.NavItem(dbc.NavLink("Test", href="/test")),
         ],
         brand="Monitoring Insights",
         brand_href="#",
@@ -20,4 +21,4 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server(host='192.168.100.213', debug=True)
+    app.run_server(host='192.168.100.165',debug=True)
